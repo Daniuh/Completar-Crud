@@ -16,22 +16,25 @@ public class EmployeeController {
     @Autowired
     EmployeeService EmployeeService;
 
+    //Buscar 
     @GetMapping()
     public ArrayList<Employee> getEmployee() {
         return EmployeeService.getEmployee();
     }
 
+    //Enviar
     @PostMapping()
     public Employee saveEmployee(@RequestBody Employee employee) {
         return this.EmployeeService.saveEmployee(employee);
     }
 
+    //Buscar Id
     @GetMapping(path = "/{id}")
     public Optional<Employee> getEmployeeById(@PathVariable("id") Long id) {
         return this.EmployeeService.getById(id);
     }
 
-
+    //Borrar
     @DeleteMapping(path = "/{id}")
     public String deleteById(@PathVariable("id") Long id) {
         boolean ok = this.EmployeeService.deleteEmployee(id);
