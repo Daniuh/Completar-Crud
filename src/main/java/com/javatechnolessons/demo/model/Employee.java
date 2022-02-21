@@ -16,7 +16,7 @@ import javax.persistence.ManyToOne;
 
 /**
  * Represents an employee entity
- * @author javatechnolessons
+ * @author Daniel Naranjo
  * @version 1.0
  */
 @Entity

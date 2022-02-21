@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 /**
  * Represents a role entity
- * @author javatechnolessons
+ * @author Daniel Naranjo 
  * @version 1.0
  */
 @Entity

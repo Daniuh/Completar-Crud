@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Spring Boot demo application
- * @author javatechnolessons
+ * @author Daniel Naranjo 
  * @version 1.0
  */
 @SpringBootApplication

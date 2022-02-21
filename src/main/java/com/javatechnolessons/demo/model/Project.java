@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 /**
  * Represents a project entity
- * @author javatechnolessons
+ * @author Daniel Naranjo 
  * @version 1.0
  */
 @Entity
